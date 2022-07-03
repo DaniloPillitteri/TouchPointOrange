@@ -1,0 +1,170 @@
+
+  .animation_container{
+    width: 1100px;
+    height:450px;
+    margin: auto;
+  }
+  
+  .nav_prev{
+      position: absolute;
+    right: 740px;
+    bottom: 50px;
+    display: block;
+    width: 150px;
+    height: 400px;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+  }
+  
+  .nav_next{
+      position: absolute;
+    right: 200px;
+    bottom: 50px;
+    display: block;
+    width: 150px;
+    height: 400px;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 0;
+  }
+  
+  .carousel {
+    padding: 20px;
+    perspective: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carousel > * {
+    flex: 0 0 auto;
+  }
+  .carousel figure {
+    margin: 0;
+    width: 40%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  .carousel figure img {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0px;
+  }
+  .carousel figure img:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .carousel nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+  }
+  .carousel nav button {
+    flex: 0 0 auto;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #333;
+    background: none;
+    border: 1px solid;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+  }
+  
+  
+
+  /* ////////////// */
+  .text-container{
+    width: 800px;
+    height:300px;
+    overflow: hidden;
+    display:block;
+    margin:auto;
+}
+
+#slider{
+    display: inline-flex;
+    transition:0.5s;
+}
+
+.slide{
+  width: 800px;
+  height:300px;
+  font-family: 'Karla', sans-serif;
+  justify-self:left;
+}
+
+h1{
+  font-family: 'Karla', sans-serif;
+  justify-self:left;
+  font-size: 300;
+}
+p{
+  justify-self:left;
+  font-family: 'Karla', sans-serif;
+  margin: 10px;
+  size: 18px;
+}
+
+.slide01{
+  color:#d7bd43;
+  font-size: 40px;
+}
+.slide02{
+  color:#e25c33;
+  font-size: 40px;
+}
+.slide03{
+  color:#df6c92;
+  font-size: 40px;
+}
+.slide04{
+  color:#e86e1c;
+  font-size: 40px;
+}
+.slide05{
+  color:#9078c7;
+  font-size: 40px;
+}
+.slide06{
+  color:#af6fc3;
+  font-size: 40px;
+}
+.slide07{
+  color:#6b9643;
+  font-size: 40px;
+}
+.slide08{
+  color:#647fa5;
+  font-size: 40px;
+}
+.slide09{
+  color:#cb3d20;
+  font-size: 40px;
+}
+
+span{
+  color:black;
+  font-weight:30px;
+  font:30px;
+}
+
+hr{
+  width: 60px ;
+  height:0.1px;
+  color: black;
+  margin-left: 10px;
+}
+
