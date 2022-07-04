@@ -176,5 +176,84 @@ span{
   color: black;
   margin-left:0px;
 }
+@media only screen and (max-width: 320px){
+  
+  .animation_container{
+    max-width: 280px;
+    height: 100px;
+  }
 
+  .text-container{
+    width: 200px;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  #slider{
+      display: inline-flex;
+      transition:0.5s;
+  }
+
+  .slide{
+    width: 200px;
+    height: 500px;
+    font-family: 'Karla', sans-serif;
+    justify-self:left;
+  }
+
+  p{
+    size: 14px;
+  }
+  span{
+    font:20px;
+  }
+  .slide01{
+    font-size: 25px;
+  }
+  .slide02{
+    font-size: 25px;
+  }
+  .slide03{
+    font-size: 25px;
+  }
+  .slide04{
+    font-size: 25px;
+  }
+  .slide05{
+    font-size: 25px;
+  }
+  .slide06{
+    font-size: 25px;
+  }
+  .slide07{
+    font-size: 25px;
+  }
+  .slide08{
+    font-size: 25px;
+  }
+  .slide09{
+    font-size: 25px;
+  }
+  .nav_prev{
+    position: absolute;
+    right: 170px;
+    bottom: 30px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: grey !important;
+    border: 10px solid; 
+  }
+
+  .nav_next{
+      position: absolute;
+    right: 20px;
+    bottom: 30px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: grey !important;
+    border: 10px solid; 
+  }
+}
 
