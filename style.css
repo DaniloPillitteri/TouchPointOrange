@@ -83,7 +83,7 @@
  
 /* ////////////// */
 .text-container{
-    width: 800px
+    width: 800px;
     height:300px;
     overflow: hidden;
     margin:auto;
@@ -96,7 +96,7 @@
 }
 
 .text_slide{
-  width:800px
+  width:800px;
   font-family: 'Karla', sans-serif;
   justify-self:left;
   background-color: white;
