@@ -92,88 +92,69 @@
 #slider{
     display: inline-flex;
     transition:0.5s;
-    margin-top:20px;
 }
 
-.text_slide{
-  width:800px;
+.slide{
+  width: 800px;
+  height:300px;
   font-family: 'Karla', sans-serif;
   justify-self:left;
-  background-color: white;
 }
 
-.text{
+p{
   justify-self:left;
   font-family: 'Karla', sans-serif;
-  font-size:18px;
+  margin: 10px;
+  size: 18px;
 }
 
 .slide01{
   color:#d7bd43;
   font-size: 40px;
-  font-weight:300;
-  margin-bottom:30px;
 }
 .slide02{
   color:#e25c33;
   font-size: 40px;
-    font-weight:300;
-  margin-bottom:30px;
 }
 .slide03{
   color:#df6c92;
   font-size: 40px;
-    font-weight:300;
-  margin-bottom:30px;
 }
 .slide04{
   color:#e86e1c;
   font-size: 40px;
-    font-weight:300;
-  margin-bottom:30px;
 }
 .slide05{
   color:#9078c7;
   font-size: 40px;
-    font-weight:300;
-  margin-bottom:30px;
 }
 .slide06{
   color:#af6fc3;
   font-size: 40px;
-    font-weight:300;
-  margin-bottom:30px;
 }
 .slide07{
   color:#6b9643;
   font-size: 40px;
-    font-weight:300;
-  margin-bottom:30px;
 }
 .slide08{
   color:#647fa5;
   font-size: 40px;
-    font-weight:300;
-  margin-bottom:30px;
 }
 .slide09{
   color:#cb3d20;
   font-size: 40px;
-    font-weight:300;
-  margin-bottom:30px;
 }
 
 span{
   color:black;
-  font-weight:400;
+  font-weight:30px;
   font:30px;
   font-family: 'Oswald', sans-serif;
 }
 
-.sep-line{
+hr{
   width: 60px ;
   height:0.1px;
   color: black;
-  margin-left:0px;
+  margin-left: 10px;
 }
-
